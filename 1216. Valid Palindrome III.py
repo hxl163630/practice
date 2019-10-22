@@ -42,7 +42,7 @@ class Solution:
         return dfs(s, 0, len(s) - 1, seen) <= k
 
 sol = Solution()
-a = "asdfasdfasasdfaasdfasdfasdfaasasdfasdfasdfaasdfasdfaasdfasasdfaasdfasdfasdfaasasdfasdfasdfaasdfasdfaasdfasasdfaasdfasdfasdfaasasdfasdfasdfaasdfasdfaasdfasasdfaasdfasdfasdfaasasdfasdfasdfaasdfasdfaasdfasasdfaasdfasdfasdfaasasdfasdfasdfaasdfasdfasdfaafasdfasdfaaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfa"
+a = "asdfasdfasasdfaasdfasdfasdfaasasdfasdfasdfaasdfasdfasdfaafasdfasdfaaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfaasdfasdfasdfa"
 k = 50
 print(len(a))
 
@@ -58,6 +58,4 @@ t3 = time.time()
 
 print(sol.isValidPalindrome2(a, k))
 t4 = time.time()
-print(t2 - t1)
-print(t3- t2)
-print(t4 - t3)
+print(t2 - t1, t3 - t2, t4 - t3)
